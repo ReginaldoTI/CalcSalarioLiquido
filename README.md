@@ -1,4 +1,4 @@
-# CalcSalarioLiquido
+#App Androide calculadora de salário líquido em Java.
 Bootcamp IGTI calculadora de salário líquido
 Cronograma inicial
 
