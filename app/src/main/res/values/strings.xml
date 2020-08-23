@@ -8,4 +8,6 @@
     <string name="lblnumdep">lblNumDep</string>
     <string name="insira_o_n_de_dependentes">Insira o nº de dependentes</string>
     <string name="outros_descontos">Outros Descontos</string>
+    <string name="insira_outros_descontos_opcional">Insira Outros Descontos (Opcional)</string>
+    <string name="informe_o_sal_rio_bruto">Informe o Salário Bruto</string>
 </resources>
