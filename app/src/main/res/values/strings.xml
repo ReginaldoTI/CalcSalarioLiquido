@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calc_Salario</string>
+    <string name="calcsalliq">CalcSalLiq</string>
+    <string name="tbsalbruto">tbSalbruto</string>
+    <string name="lblsalbruto">lblSalbruto</string>
+    <string name="lblsalbrt">lblsalbrt</string>
+    <string name="informe_o_s_rio_bruto">Informe o Sário Bruto</string>
+    <string name="lblnumdep">lblNumDep</string>
+    <string name="insira_o_n_de_dependentes">Insira o nº de dependentes</string>
+    <string name="outros_descontos">Outros Descontos</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:text="@string/calcsalliq"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="18sp"
+        tools:text="Calculador de Salário Líquido" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_margin="0"
+        android:layout_marginStart="0"
+        android:layout_marginLeft="0"
+        android:layout_marginTop="0"
+        android:layout_marginEnd="0"
+        android:layout_marginRight="0"
+        android:layout_marginBottom="0"
+        android:orientation="horizontal"
+        android:padding="0"
+        android:paddingStart="0"
+        android:paddingLeft="0"
+        android:paddingTop="0"
+        android:paddingEnd="0"
+        android:paddingRight="0"
+        android:paddingBottom="0">
+
+        <TextView
+            android:id="@+id/lblsalbrt"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblsalbrt"
+            tools:text="Salário Bruto R$ :" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/informe_o_s_rio_bruto"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/NumDependentes"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblnumdep"
+            tools:text="Nº de Dependentes :" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/insira_o_n_de_dependentes"
+            android:inputType="number"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblOutros"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:text="@string/outros_descontos"
+            tools:text="Outros Descontos" />
+    </LinearLayout>
+
+</LinearLayout>
