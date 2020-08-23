@@ -1,4 +1,4 @@
-# CalcSalarioLiquido
+# Calculadora de sário líquido em Java.
 Bootcamp IGTI calculadora de salário líquido
 Cronograma inicial
 
